@@ -873,3 +873,7 @@ h1, h2, h3, h4, h5, h6 {
     .pop-up p {
       padding-top: 20px;
     }
+
+    .pop-up h3{
+      color: #bd1220;
+    }
