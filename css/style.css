@@ -861,19 +861,23 @@ h1, h2, h3, h4, h5, h6 {
 
     .pop-up {
       display: none;
-      width: 50pc;
-      border-radius: 10px;
+      width: 40rem;
+      max-width: 100pc;
+      border-radius: 4px;
       overflow: hidden;
     }
 
     .pop-up img {
-      border-radius: 10px;
+      margin: 2.5rem 0;
+      width: 100pc;
+      border-radius: 4px;
     }
 
     .pop-up p {
-      padding-top: 20px;
+      /*padding-top: 20px;*/
     }
 
-    .pop-up h3{
+    .pop-up h3 {
       color: #bd1220;
+      border-bottom: solid 1px #bd1220;
     }
