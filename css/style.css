@@ -879,5 +879,7 @@ h1, h2, h3, h4, h5, h6 {
 
     .pop-up h3 {
       color: #bd1220;
+      width: max-content;
+      padding-bottom: 0.5rem;
       border-bottom: solid 1px #bd1220;
     }
