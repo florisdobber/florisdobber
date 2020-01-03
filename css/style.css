@@ -873,13 +873,9 @@ h1, h2, h3, h4, h5, h6 {
       border-radius: 4px;
     }
 
-    .pop-up p {
-      /*padding-top: 20px;*/
-    }
-
     .pop-up h3 {
       color: #bd1220;
       width: max-content;
       padding-bottom: 0.5rem;
-      border-bottom: solid 1px #bd1220;
+      border-bottom: solid 2px #bd1220;
     }
