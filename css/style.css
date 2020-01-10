@@ -880,6 +880,15 @@ h1, h2, h3, h4, h5, h6 {
       border-bottom: solid 2px #bd1220;
     }
 
-    .icon {
+    .icon-github {
       font-size: 200pc !important;
+    }
+
+    .icon-instagram {
+      size: 200pc !important;
+    }
+
+    .icon-twitter {
+      size: 200pc;
+      font-size: 200pc;
     }
