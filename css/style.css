@@ -879,3 +879,7 @@ h1, h2, h3, h4, h5, h6 {
       padding-bottom: 0.5rem;
       border-bottom: solid 2px #bd1220;
     }
+
+    .icon {
+      size: 400pc;
+    }
