@@ -881,14 +881,13 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .icon-github {
-      font-size: 200pc !important;
+      font-size: 100pc;
     }
 
     .icon-instagram {
-      size: 200pc !important;
+      font-size: 50pc;
     }
 
     .icon-twitter {
-      size: 200pc;
-      font-size: 200pc;
+      font-size: 25pc;
     }
