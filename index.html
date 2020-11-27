@@ -1,328 +1,359 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <title>Floris Dobber</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="fonts/icomoon/style.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-    
-    
-    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-  
-    <link rel="stylesheet" href="css/aos.css">
-    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
-    
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="portfolio, personal, floris, dobber, developer, data, data science">
+  <meta name="author" content="Floris Dobber">
+  <title>Floris Dobber</title>
 
-    <link rel="stylesheet" href="css/style.css">
-    
-  </head>
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-  
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/album/">
+  <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
 
-  <div class="site-wrap">
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+  <link href="custom.css" rel="stylesheet">
+</head>
 
-    <div class="site-mobile-menu site-navbar-target">
-      <div class="site-mobile-menu-header">
-        <div class="site-mobile-menu-close mt-3">
-          <span class="icon-close2 js-menu-toggle"></span>
-        </div>
+<body>
+  <header>
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+      <div class="container d-flex justify-content-between">
+        <a href="#" class="navbar-brand d-flex align-items-center">
+          <!-- <img src="assets/icons/logo.svg" alt="logo" class="mr-2" width="20" height="20"> -->
+          <strong>Floris Dobber</strong>
+        </a>
       </div>
-      <div class="site-mobile-menu-body"></div>
-    </div> <!-- .site-mobile-menu -->
-    
-    
-    <div class="site-navbar-wrap">
-      
-      <div class="site-navbar site-navbar-target js-sticky-header">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-6 col-md-4">
-              <h1 class="my-0 site-logo"><a href="">Floris Dobber<span class="text-primary">.</span> </a></h1>
-            </div>
-            <div class="col-6 col-md-8">
-              <nav class="site-navigation text-right" role="navigation">
-                <div class="container">
+    </div>
+  </header>
 
-                  <div class="d-inline-block d-lg-block ml-md-0 mr-auto py-3"><a href="#" class="site-menu-toggle js-menu-toggle text-black">
-                    <span class="icon-menu h3"></span> <span class="menu-text">Menu</span>
-                  </a></div>
+  <main role="main">
 
-                  <ul class="site-menu main-menu js-clone-nav d-none d-lg-none">
-                    <li><a href="#home-section" class="nav-link">Home</a></li>
-                    <li><a href="#what-we-do-section" class="nav-link">What I Do</a></li>
-                    <li><a href="#about-section" class="nav-link">My skills</a></li>
-                    <li><a href="#contact-section" class="nav-link">Contact</a></li>
-                  </ul>
-                </div>
-              </nav>
-            </div>
-          </div>
-        </div>
+    <section class="jumbotron text-center">
+      <div class="container">
+        <h1>Hi there!</h1>
+        <p class="lead text-muted">
+          My name is Floris Dobber and I'm currently pursuing a BS in Data Science at Northeastern University. I'm
+          looking for my second co-op for July through December 2021, so feel free to reach out to me on any of the
+          platforms below for my resume or other information!
+        </p>
+        <a href="https://github.com/florisdobber" target="_blank">
+          <img class="icon" src="assets/icons/github.svg" alt="GitHub" width="48" height="48" title="GitHub">
+        </a>
+        <a href="https://www.linkedin.com/in/floris-dobber/" target="_blank">
+          <img class="icon" src="assets/icons/linkedin.svg" alt="LinkedIn" width="48" height="48" title="LinkedIn">
+        </a>
+        <a href="mailto: [myname]@gmail.com?body=Please replace the text in my email address with my full name">
+          <img class="icon" src="assets/icons/email.svg" alt="Email" width="48" height="48" title="Email">
+        </a>
       </div>
-    </div> <!-- END .site-navbar-wrap -->
-    
-    <div class="site-blocks-cover" id="home-section">
-      <div class="img-wrap">
-        <div class="owl-carousel slide-one-item hero-slider">
-          <div class="slide">
-            <img src="images/neu_img.jpg" alt="Image">  
-          </div>
-          <div class="slide">
-            <img src="images/c4c_img.jpg" alt="Image">  
-          </div>
-          <div class="slide">
-            <img src="images/soccer_img.jpg" alt="Image">  
-          </div>
-        </div>
-      </div>
+    </section>
+
+    <div class="album py-5 bg-light">
+      <h1 class="display-4 body-title">Projects & Experience</h1>
+
       <div class="container">
         <div class="row">
-          <div class="col-md-6 ml-auto align-self-center">
-            <div class="intro">
-              <div class="heading">
-                <h1>Hi there!</h1>
-              </div>
-              <div class="text">
-                <p class="sub-text mb-5">My name is Floris Dobber and I'm pursuing a BS in Data Science at Northeastern University. I'm currently a full time student while working on personal projects on the side. I am looking for my first co-op for July through December 2020.</p>
-                <p><a href="#contact-section" target="_self" class="btn btn-outline-primary btn-md">Contact me</a></p>
-                <!-- implement smoothscroll -->
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img src="assets/images/urban_forest.jpg" alt="" class="rounded card-img-top" width="100%" preserveAspectRatio="xMidYMid slice" height="225">
+              <div class="card-body">
+                <!-- <h3 class="card-text">Title</h3> -->
+                <p class="card-text">Developing a tracking, reservation and maintenance platform to help <a href="https://www.sfttbos.org">Speak for the Trees</a> expand Boston's urban forest.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal"
+                      data-target="#sfttModal">More info</button>
+                    <a href="https://app.sfttbos.org/" target="_blank" title="https://app.sfttbos.org/"
+                      class="btn btn-sm btn-outline-secondary">SFTT</a>
+                    <a href="https://github.com/Code-4-Community/speak-for-the-trees-frontend" target="_blank" title="https://github.com/Code-4-Community/speak-for-the-trees-frontend"
+                      class="btn btn-sm btn-outline-secondary">GitHub</a>
+                  </div>
+                  <small class="text-muted">Ongoing</small>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div> <!-- END .site-blocks-cover -->
-
-    <div class="site-section" id="what-we-do-section">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-lg-6 section-title">
-            <span class="sub-title mb-2 d-block">What I Do</span>
-            <h2 class="title text-primary">Projects and experiences</h2>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img src="assets/images/crypto.jpg" alt="" class="rounded card-img-top" width="100%" preserveAspectRatio="xMidYMid slice" height="225">
+              <div class="card-body">
+                <p class="card-text">Designed an automated trading bot that is always active focused on trading cryptocurrencies.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal"
+                      data-target="#btcModal">More info</button>
+                  </div>
+                  <small class="text-muted">Ongoing</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img src="assets/images/ev.jpg" alt="" class="rounded card-img-top" width="100%" preserveAspectRatio="xMidYMid slice" height="225">
+              <div class="card-body">
+                <p class="card-text">Global Quantitative Data Analysis Co-op at Eaton Vance focused on analyzing data and
+                  building models.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal"
+                      data-target="#evModal">More info</button>
+                    <a href="https://www.eatonvance.com/" target="_blank" title="https://www.eatonvance.com/"
+                      class="btn btn-sm btn-outline-secondary">Eaton Vance</a>
+                  </div>
+                  <small class="text-muted">Ongoing</small>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-10 ml-auto">
-            <div class="row">
-              <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-                <div class="service h-100">
-                  <h3>Code4Community</h3>
-                  <p>A student-led organization dedicated to developing software solutions for non-profits.</p>
-                  <p><a data-fancybox data-src="#read-more1" href="javascript:;" class="readmore">Learn more</a></p>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img src="assets/images/code.jpg" alt="" class="rounded card-img-top" width="100%" preserveAspectRatio="xMidYMid slice" height="225">
+              <div class="card-body">
+                <p class="card-text">This website, serving as a way to highlight my projects and experience.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal"
+                      data-target="#websiteModal">More info</button>
+                    <a href="https://github.com/florisdobber/florisdobber" target="_blank" title="https://github.com/florisdobber/florisdobber"
+                      class="btn btn-sm btn-outline-secondary">GitHub</a>
+                  </div>
+                  <small class="text-muted">Nov 2020</small>
                 </div>
               </div>
-              <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-                <div class="service h-100">
-                  <h3>This Website</h3>
-                  <p>My porfolio website to showcase my projects.</p>
-                  <p><a data-fancybox data-src="#read-more2" href="javascript:;" class="readmore">Learn more</a></p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img src="assets/images/sports_betting.jpg" alt="" class="rounded card-img-top" width="100%" preserveAspectRatio="xMidYMid slice" height="225">
+              <div class="card-body">
+                <p class="card-text">Created an algorithm used to bet on English Premier League matches.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal"
+                      data-target="#bettingModal">More info</button>
+                    <a href="" target="_blank" class="btn btn-sm btn-outline-secondary">GitHub</a>
+                  </div>
+                  <small class="text-muted">March 2020</small>
                 </div>
               </div>
-              <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-                <div class="service h-100">
-                  <h3>Java Games</h3>
-                  <p>Two games designed in class written in Java.</p>
-                  <p><a data-fancybox data-src="#read-more3" href="javascript:;" class="readmore">Learn more</a></p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img src="assets/images/soccer_img.jpg" alt="" class="rounded card-img-top" width="100%" preserveAspectRatio="xMidYMid slice" height="225">
+              <div class="card-body">
+                <p class="card-text">An analysis of squad age profiles in the Dutch Eredivisie using R and Tableau.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal"
+                      data-target="#soccerModal">More info</button>
+                    <a href="https://github.com/florisdobber/squad-age-profiles" target="_blank" title="https://github.com/florisdobber/squad-age-profiles"
+                      class="btn btn-sm btn-outline-secondary">GitHub</a>
+                  </div>
+                  <small class="text-muted">Dec 2019</small>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
 
-              <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-                <div class="service h-100">
-                  <h3>Deloitte Summer Internship</h3>
-                  <p>Full time intern at Deloitte as part of their T&I team.</p>
-                  <p><a data-fancybox data-src="#read-more4" href="javascript:;" class="readmore">Learn more</a></p>
-                  <br>
-                  <br>
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img src="assets/images/deloitte.jpg" alt="" class="rounded card-img-top" width="100%" preserveAspectRatio="xMidYMid slice" height="225">
+              <div class="card-body">
+                <p class="card-text">Full time intern at Deloitte as part of their T&I team.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal"
+                      data-target="#deloitteModal">More info</button>
+                    <a href="https://www2.deloitte.com/nl/nl.html" target="_blank" title="https://www2.deloitte.com/nl/nl.html"
+                      class="btn btn-sm btn-outline-secondary">Deloitte</a>
+                  </div>
+                  <small class="text-muted">June 2019</small>
                 </div>
               </div>
-              <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-                <div class="service h-100">
-                  <h3>Soccer Analysis</h3>
-                  <p>An analysis of squad age profiles in the Dutch Eredivisie using R and Tableau.</p>
-                  <p><a data-fancybox data-src="#read-more5" href="javascript:;" class="readmore">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="modals">
+        <div class="modal fade" id="sfttModal" tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Speak for the Trees</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>Placeholder</p>
+                <div class="btn-group float-right">
+                  <a href="https://app.sfttbos.org/" target="_blank"
+                    class="btn btn-sm btn-outline-secondary">Website</a>
+                  <a href="https://github.com/Code-4-Community/speak-for-the-trees-frontend" target="_blank"
+                    class="btn btn-sm btn-outline-secondary">GitHub</a>
                 </div>
               </div>
-              <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-                <div class="service h-100">
-                  <h3>Python Project</h3>
-                  <p>A project in Python that is currently in development. More info to follow!</p>
-                  <p><a data-fancybox data-src="#read-more6" href="javascript:;" class="readmore">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="btcModal" tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Crypto Trading Bot</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>Placeholder</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="evModal" tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Eaton Vance Co-op</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>Placeholder</p>
+                <div class="btn-group float-right">
+                  <a href="https://www.eatonvance.com/" target="_blank"
+                    class="btn btn-sm btn-outline-secondary">Website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="websiteModal" tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Personal Website</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>I created this website to showcase all of my projects and experience in one place and create an easy place for people to find me. It was also fun to apply white I've learned in class and through projects with C4C to something of my own, although on a smaller scale. It was written using HTML, CSS and JavaScript, with Bootstrap making the process significantly easier.</p>
+                <div class="btn-group float-right">
+                  <a href="https://github.com/florisdobber/florisdobber" target="_blank"
+                    class="btn btn-sm btn-outline-secondary">GitHub</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="bettingModal" tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Betting algorithm</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>Placeholder</p>
+                <div class="btn-group float-right">
+                  <a href="" target="_blank"
+                    class="btn btn-sm btn-outline-secondary">GitHub</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="soccerModal" tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Squad Age Analysis</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>Using R I scraped player data for all players in the Eredivisie from transfermarkt.com. Following this I converted it to a CSV and then used Tableau to illustrate the squad age profile of each team in the Eredivisie. This project was inspired by visuals I had seen from Opta and other soccer stats fanatics.</p>
+                <div class="btn-group float-right">
+                  <a href="https://github.com/florisdobber/squad-age-profiles" target="_blank"
+                    class="btn btn-sm btn-outline-secondary">GitHub</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="deloitteModal" tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Deloitte Internship</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>During the summer of 2019 I worked at Deloitte NL, in Amsterdam, for 2 months as part of their
+                  Technology & Innovation team. The team focused on developing internal tooling and promoting new
+                  technologies within
+                  the company. I personally developed interactive dashboards using Tableau Desktop & Prep to illustrate
+                  internal project management. Besides that I also forecasted and visualized internal revenue streams
+                  using Python and Tableau.</p>
+                <div class="btn-group float-right">
+                  <a href="https://www2.deloitte.com/nl/nl.html" target="_blank"
+                    class="btn btn-sm btn-outline-secondary">Website</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div> <!-- END .site-section -->
 
-    <div class="pop-up" id="read-more1">
-      <div class="container">
-        <h3>Code4Community</h3>
-        <img src="images/c4c_img.jpg" alt="Image" class="img-fluid">
-        <p>Code for Community is a student organization at Northeastern University dedicated to developing software solutions for non-profit organizations. Our current clients are Lucy's Love Bus and Speak for the Trees Boston for whom we're developing an event planning and ticket purchasing system and an interactive map for counting trees. While doing projects for C4C I've worked across the full stack. I've done front end development for c4cneu.com, designed the back end, investigated cloud providers and set up the AWS servers.</p>
-      </div>
+  </main>
+
+  <footer class="text-muted">
+    <div class="container">
+      <p class="float-right">
+        <a href="#">Back to top</a>
+      </p>
+      <p>Created by Floris Dobber</p>
+      <p>If you're interested in using this website as a template for your own website please reach out for any help or <a href="https://github.com/florisdobber/florisdobber.github.io">take a look at the code!</a></p>
     </div>
-    
-    <div class="pop-up" id="read-more2">
-      <div class="container">
-        <h3>This Website</h3>
-        <p>I launched this website to showcase some of my projects and allow people to get a quick overview of what I've done, what I'm working on and some of the skills I possess. It was also a valuable experience to apply what I've learned in class and through projects for Code4Community to my own project. It was written using HTML, CSS and JavaSript.</p>
-      </div>
-    </div>
-    
-    <div class="pop-up" id="read-more3">
-      <div class="container">
-        <h3>Java Games</h3>
-        <img src="images/floodit_img.jpg" alt="Image" class="img-fluid">
-        <p>These two games were designed for my Fundamentals of Computer Science class as a final project. Flood-It is a game in which you get a limited number of turns to paint all the squares on the board the same color by means of 'flooding' adjacent cells every turn. The objective of BridgIt is to create a connection from one side of the board to the other before the other players manages to.</p>
-      </div>
-    </div>
-    
-    <div class="pop-up" id="read-more4">
-      <div class="container">
-        <h3>Deloitte Summer Internship</h3>
-        <p>During the summer of 2019 I worked at Deloitte NL, in Amsterdam, for 2 months as part of their Technology & Innovation team. The team focused on developing internal tooling and promoting new technologies within the company. I personally developed interactive dashboards using Tableau Desktop & Prep to illustrate internal project management. Besides that I also forecasted and visualized internal revenue streams using Python and Tableau.</p>
-      </div>
-    </div>
-    
-    <div class="pop-up" id="read-more5">
-      <div class="container">
-        <h3>Soccer Analysis</h3>
-        <img src="images/soccer_img.jpg" alt="Image" class="img-fluid">
-        <p>Using R I scraped player data for all players in the Eredivisie from transfermarkt.com. Following this I converted it to a CSV and then used Tableau to illustrate the squad age profile of each team in the Eredivisie. This project was inspired by visuals I had seen from Opta and other soccer stats fanatics.</p>
-      </div>
-    </div>
-    
-    <div class="pop-up" id="read-more6">
-      <div class="container">
-        <h3>Python Project</h3>
-        <p>An updated description of this project will be posted once it is completed.</p>
-      </div>
-    </div>
+  </footer>
 
-    <div class="site-section" id="about-section">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6 mb-5">
-            <img src="images/skills_section.jpg" alt="Image" class="img-fluid">
-          </div>
-          <div class="col-lg-5 ml-auto section-title">
-            <span class="sub-title mb-2 d-block">My skills</span>
-            <h2 class="title text-primary mb-3">Programming languages</h2>
-            <p class="mb-4">While developing my projects and working on class assignments I have gained lots of experience with several programming languages. The ones listed below are the ones I am most comfortable with!</p>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
+  <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
 
-
-            <div class="d-flex">
-              <ul class="list-unstyled ul-check success mr-5">
-                <li>Java</li>
-                <li>R</li>
-                <li>Git</li>
-                
-              </ul>
-              <ul class="list-unstyled ul-check success">
-                
-                <li>Python</li>
-                <li>C++</li>
-                <li>SQL</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> <!-- .END site-section -->
-    
-    
-    <div class="site-section" id="contact-section">
-      <div class="container">
-        <form action="" class="contact-form">
-
-          <div class="section-title text-center mb-5">
-            <span class="sub-title mb-2 d-block">Get In Touch</span>
-            <h2 class="title text-primary">Contact Me</h2>
-          </div>
-
-          <div class="section-title text-center mb-5">
-            <a href="https://github.com/florisdobber/" class="pl-0 pr-3"><span class="icon-github"></span></a>
-            <a href="https://twitter.com/FlorisDobber" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
-            <a href="https://www.instagram.com/florisdobber/" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
-            <a href="https://www.linkedin.com/in/floris-dobber/" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
-          </div>
-          <!-- 
-          <div class="row mb-4">
-            <div class="col-md-6 mb-4 mb-md-0">
-              <input type="text" name="first_name" class="form-control" placeholder="First name">
-            </div>
-            <div class="col-md-6">
-              <input type="text" name="last_name" class="form-control" placeholder="Last name">
-            </div>
-          </div>
-
-          <div class="row mb-4">
-            <div class="col-12">
-              <input type="email" name="email_address" class="form-control" placeholder="Email">
-            </div>
-          </div>
-
-          <div class="row mb-4">
-            <div class="col-12">
-              <textarea class="form-control" name="message" cols="30" rows="10" placeholder="Message"></textarea>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-12">
-              <button type="submit" class="btn btn-primary btn-md">Send Message</button>
-            </div>
-          </div> -->
-        </form>
-      </div> 
-    </div> <!-- END .site-section -->
-  
-    <footer class="site-footer">
-      <div class="container">
-        <div class="row pt-5 mt-5 text-center">
-          <div class="col-md-12">
-            <!--
-            <div class="mb-4">
-                  <a href="https://github.com/florisdobber/" class="pl-0 pr-3"><span class="icon-github"></span></a>
-                  <a href="https://twitter.com/FlorisDobber" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
-                  <a href="https://www.instagram.com/florisdobber/" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
-                  <a href="https://www.linkedin.com/in/floris-dobber/" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
-                </div>
-                -->
-            <p>
-              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            </p>
-          </div>
-          
-        </div>
-      </div>
-    </footer>
-  </div>
-
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.sticky.js"></script>
-  <script src="js/stickyfill.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/isotope.pkgd.min.js"></script>
-  
-  <script src="js/jquery.fancybox.min.js"></script>
-  <script src="js/main.js"></script>
-
-     
-  </body>
 </html>
