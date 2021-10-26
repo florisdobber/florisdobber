@@ -1,6 +1,10 @@
-# Hi, I'm Floris
+# Hi, I'm Floris 👋
 
-I'm a Data Science major at Northeastern University, graduating in May 2023. In July I will be starting my second co-op at [LineVision](https://www.linevisioninc.com/) where I will be part of the data science team. Currently, I'm working on creating a platform dedicated to mapping and maintaining Boston's urban forest in partnership with [Speak for the Trees](https://www.sfttbos.org/). Previously, I worked at [Eaton Vance](https://www.eatonvance.com/) as a Global Quantitative Data Analyst on their Global Income team. I wrote NLP algorithms to analyze thousands of articles on a daily basis to help fuel investment decisions in addition to building interactive dashboards that give managers an overview of the current status of their portfolio. If you want to connect, please reach out to me here or on any of the platforms below!
+I'm a Data Science major at Northeastern University, graduating in May 2023. 
+Currently, I'm working at [LineVision](https://www.linevisioninc.com/) as a data engineer, working on finding novel solutions to provide real time analytics to utility companies. Our products directly enables utility companies to manage the grid more efficiently, thereby providing the capacity necessary to ensure a more sustainable future.
+In my free time I lead [Code4Community](https://c4cneu.com/), a software development organization dedicated to providing industry-grade software to local non-profits at no cost. 
+Previously, I worked at [Eaton Vance](https://www.eatonvance.com/) as a Global Quantitative Data Analyst on their Global Income team. I wrote NLP algorithms to analyze thousands of articles on a daily basis to help fuel investment decisions in addition to building interactive dashboards to give managers an overview of the current status of their portfolio. 
+If you want to connect, please reach out to me here or on any of the platforms below!
 
 ### Connect with Me
 * LinkedIn: [Floris Dobber](https://www.linkedin.com/in/floris-dobber/)
