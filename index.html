@@ -4,7 +4,6 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!-- <meta name="description" content="My personal website"> -->
   <meta name="author" content="Floris Dobber">
   <title>Floris Dobber</title>
   <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/album/">
@@ -30,24 +29,12 @@
 </head>
 
 <body>
-  <header>
-    <div class="navbar navbar-dark bg-dark shadow-sm">
-      <div class="container d-flex justify-content-between">
-        <a href="#" class="navbar-brand d-flex align-items-center">
-          <!-- <img src="assets/icons/logo.svg" alt="logo" class="mr-2" width="20" height="20"> -->
-          <strong>Floris Dobber</strong>
-        </a>
-      </div>
-    </div>
-  </header>
-
   <main role="main">
-
     <section class="jumbotron text-center">
       <div class="container">
         <h1>Hi there!</h1>
         <p class="lead text-muted">
-          My name is Floris Dobber and I'm currently pursuing a BS in Data Science at Northeastern University. I am looking for full-time opportunities following my graduation in May 2023. If you are interested in connecting, please reach out to me on any of the platforms below!
+          My name is Floris Dobber and I'm an incoming Computational Finance MSc student at UCL. If you are interested in connecting, please reach out to me on any of the platforms below!
         </p>
         <a href="https://github.com/florisdobber" target="_blank">
           <img class="icon" src="assets/icons/github.svg" alt="GitHub" width="48" height="48" title="GitHub">
@@ -61,11 +48,33 @@
       </div>
     </section>
 
-    <div class="album py-5 bg-light">
+    <div class="album py-5">
       <h1 class="display-4 body-title">Projects & Experience</h1>
 
       <div class="container">
         <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img src="assets/images/mcfc_hackathon.png" alt="" class="rounded card-img-top" width="100%"
+                preserveAspectRatio="xMidYMid slice" height="225">
+              <div class="card-body">
+                <h5 class="card-title">Hays x MCFC Hackathon</h5>
+                <p class="card-text">Hackathon focused on creating an app that delivers real-time actionable insights to coaches during matches.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal"
+                      data-target="#mcfcHackathonModal">More info</button>
+                    <a href="https://mcfc-hackathon.onrender.com/" target="_blank" title="https://mcfc-hackathon.onrender.com/"
+                      class="btn btn-sm btn-outline-secondary">Demo</a>
+                    <a href="https://github.com/florisdobber/mcfc-hackathon" target="_blank"
+                      title="https://github.com/florisdobber/mcfc-hackathon"
+                      class="btn btn-sm btn-outline-secondary">GitHub</a>
+                  </div>
+                  <small class="text-muted">May 2023</small>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
               <img src="assets/images/finn.jpg" alt="" class="rounded card-img-top" width="100%"
@@ -80,7 +89,7 @@
                     <a href="https://www.finn.auto/" target="_blank" title="https://www.finn.auto/"
                       class="btn btn-sm btn-outline-secondary">FINN</a>
                   </div>
-                  <small class="text-muted">Ongoing</small>
+                  <small class="text-muted">Dec 2022</small>
                 </div>
               </div>
             </div>
@@ -107,6 +116,8 @@
               </div>
             </div>
           </div>
+        </div>
+        <div class="row">
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
               <img src="assets/images/power_lines.jpg" alt="" class="rounded card-img-top" width="100%"
@@ -126,8 +137,6 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="row">
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
               <img src="assets/images/urban_forest.jpg" alt="" class="rounded card-img-top" width="100%"
@@ -140,7 +149,7 @@
                   <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal"
                       data-target="#sfttModal">More info</button>
-                    <a href="https://www.sfttbos.org/" target="_blank" title="https://www.sfttbos.org/"
+                    <a href="https://map.treeboston.org/" target="_blank" title="https://map.treeboston.org/"
                       class="btn btn-sm btn-outline-secondary">SFTT</a>
                     <a href="https://github.com/Code-4-Community/speak-for-the-trees-frontend" target="_blank"
                       title="https://github.com/Code-4-Community/speak-for-the-trees-frontend"
@@ -157,7 +166,7 @@
                 preserveAspectRatio="xMidYMid slice" height="225">
               <div class="card-body">
                 <h5 class="card-title">Cryptocurrency Trading Bot</h5>
-                <p class="card-text">Designed an automated trading bot that focused on trading
+                <p class="card-text">Designed an automated trading bot focused on trading
                   cryptocurrencies.</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
@@ -169,12 +178,14 @@
               </div>
             </div>
           </div>
+        </div>
+        <div class="row">
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
               <img src="assets/images/ev.jpg" alt="" class="rounded card-img-top" width="100%"
                 preserveAspectRatio="xMidYMid slice" height="225">
               <div class="card-body">
-                <h5 class="card-title">Eaton Vance Co-op</h5>
+                <h5 class="card-title">Eaton Vance</h5>
                 <p class="card-text">Global Quantitative Data Analysis Co-op at Eaton Vance focused on analyzing data
                   and building models.</p>
                 <div class="d-flex justify-content-between align-items-center">
@@ -189,8 +200,6 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="row">
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
               <img src="assets/images/code.jpg" alt="" class="rounded card-img-top" width="100%"
@@ -230,6 +239,8 @@
               </div>
             </div>
           </div>
+        </div>
+        <div class="row">
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
               <img src="assets/images/soccer_img.jpg" alt="" class="rounded card-img-top" width="100%"
@@ -250,14 +261,12 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="row">
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
               <img src="assets/images/deloitte.jpg" alt="" class="rounded card-img-top" width="100%"
                 preserveAspectRatio="xMidYMid slice" height="225">
               <div class="card-body">
-                <h5 class="card-title">Deloitte Internship</h5>
+                <h5 class="card-title">Deloitte</h5>
                 <p class="card-text">Full time intern at Deloitte as part of their T&I team.</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
@@ -275,6 +284,35 @@
       </div>
 
       <div class="modals">
+        <div class="modal fade" id="mcfcHackathonModal" tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <div>
+                  <h5 class="modal-title">Hays x MCFC Hackathon</h5>
+                  <p class="text-muted">Python</p>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>My team and I created an app called OptiSub to help coaches optimize their substitutions during games. 
+                  The app was chosen as one of the finalists in the competition, allowing my team to travel to 
+                  Manchester to present our app in person.
+                </p>
+                <div class="btn-group">
+                  <a href="https://mcfc-hackathon.onrender.com/" target="_blank" title="https://mcfc-hackathon.onrender.com/"
+                    class="btn btn-sm btn-outline-secondary">Demo</a>
+                  <a href="https://github.com/florisdobber/mcfc-hackathon" target="_blank"
+                    title="https://github.com/florisdobber/mcfc-hackathon"
+                    class="btn btn-sm btn-outline-secondary">GitHub</a>
+                </div>
+                <small class="text-muted float-right">May 2023</small>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="modal fade" id="finnModal" tabindex="-1">
           <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
@@ -288,14 +326,14 @@
                 </button>
               </div>
               <div class="modal-body">
-                <p>I am part of the core data products team enabling all reporting and data analysis within FINN. 
+                <p>Part of the core data products team enabling all reporting and data analysis within FINN. 
                   Building maintainable and scalable data pipelines using pioneering technology to help scale the 
                   fastest growing car subscription platform in Europe.
                 </p>
                 <div class="btn-group">
                   <a href="https://www.finn.auto/" target="_blank" class="btn btn-sm btn-outline-secondary">FINN</a>
                 </div>
-                <small class="text-muted float-right">Ongoing</small>
+                <small class="text-muted float-right">Dec 2022</small>
               </div>
             </div>
           </div>
@@ -383,7 +421,7 @@
                   like to see in upcoming releases and answer any other questions they have.
                 </p>
                 <div class="btn-group">
-                  <a href="https://www.sfttbos.org/" target="_blank" class="btn btn-sm btn-outline-secondary">SFTT</a>
+                  <a href="https://map.treeboston.org/" target="_blank" class="btn btn-sm btn-outline-secondary">SFTT</a>
                   <a href="https://github.com/Code-4-Community/speak-for-the-trees-frontend" target="_blank"
                     class="btn btn-sm btn-outline-secondary">GitHub</a>
                 </div>
@@ -420,7 +458,7 @@
             <div class="modal-content">
               <div class="modal-header">
                 <div>
-                  <h5 class="modal-title">Eaton Vance Co-op</h5>
+                  <h5 class="modal-title">Eaton Vance</h5>
                   <p class="text-muted">Python, SQL, VBA, Excel</p>
                 </div>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -524,7 +562,7 @@
             <div class="modal-content">
               <div class="modal-header">
                 <div>
-                  <h5 class="modal-title">Deloitte Internship</h5>
+                  <h5 class="modal-title">Deloitte</h5>
                   <p class="text-muted">Python, Tableau Desktop & Prep</p>
                 </div>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">

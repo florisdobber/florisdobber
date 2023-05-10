@@ -1,12 +1,10 @@
 .jumbotron {
-  padding-top: 3rem;
   margin-bottom: 0;
-  background-color: #fff;
+  background-color: #ffffff;
 }
-@media (min-width: 768px) {
-  .jumbotron {
-    padding-top: 6rem;
-  }
+
+.album {
+  background-color: #e9ecef;
 }
 
 .jumbotron p:last-child {
@@ -46,4 +44,8 @@ footer p {
 
 .modal-body {
   padding: 0 1rem 1rem 1rem;
+}
+
+.card-text {
+  height: 72px;
 }
