@@ -47,5 +47,5 @@ footer p {
 }
 
 .card-text {
-  height: 72px;
+  min-height: 72px;
 }
