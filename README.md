@@ -1,6 +1,6 @@
 # Hi, I'm Floris 👋
 
-I'm an incoming Computational Finance MSc student at UCL, graduating in September 2024. In my spare time I develop quantitative trading systems at [MCD Capital](https://www.mcdcapital.net/about).
+I'm a Computational Finance MSc student at UCL, graduating in September 2024. In my spare time I develop quantitative trading systems at [MCD Capital](https://www.mcdcapital.net/about).
 
 In the past I was... \
 🎓 data science major at [Northeastern University](https://www.northeastern.edu/) (graduated in 2023) \
