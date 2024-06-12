@@ -1,3 +1,3 @@
 # Hi, I'm Floris 👋
 
-You can find me at [florisdobber.com](www.florisdobber.com).  
+You can find me at [florisdobber.com](https://www.florisdobber.com).  
